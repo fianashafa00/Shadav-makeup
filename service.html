@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="Data/Logo/Logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Shadav Makeup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="service.css">
+</head>
+<body class="has-glow">
+
+<header class="site-header">
+<div class="header-inner">
+
+    <a href="index.html" class="logo" aria-label="Shadav Makeup, beranda">
+    <img src="/Data/Logo/logo.png" alt="Logo Shadav Makeup">
+    </a>
+
+    <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="service.html" class="active">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20%5Bjenis%20layanan%5D%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." class="nav-book-btn" target="_blank" rel="noopener">Book Now</a></li>
+        </ul>
+    </nav>
+
+    </div>
+  </header>
+  <main>
+   <section class="service-hero">
+  <p class="eyebrow">Services</p>
+  <h1>Services &amp; Pricing</h1>
+  <p class="service-lead">Thoughtfully crafted makeup, private classes, and brand collaborations, each designed to bring out your best. Select a category to explore pricing.</p>
+</section>
+
+<section class="service-section">
+
+  <div class="service-tabs" role="tablist" aria-label="Service categories">
+    <button class="tab active" role="tab" id="tab-makeup-services" data-target="makeup-services" aria-selected="true" aria-controls="makeup-services">Makeup Services</button>
+    <button class="tab" role="tab" id="tab-makeup-class" data-target="makeup-class" aria-selected="false" aria-controls="makeup-class" tabindex="-1">Makeup Class</button>
+    <button class="tab" role="tab" id="tab-brand-collaboration" data-target="brand-collaboration" aria-selected="false" aria-controls="brand-collaboration" tabindex="-1">Brand Collaboration</button>
+  </div>
+
+  <!-- ===== MAKEUP SERVICES ===== -->
+  <div class="service-panel" role="tabpanel" id="makeup-services" aria-labelledby="tab-makeup-services">
+    <div class="service-grid">
+
+      <article class="service-card">
+        <h2>Regular Makeup</h2>
+        <p class="desc">Soft glam for graduations, events, and every occasion that calls for a polished, camera-ready finish.</p>
+        <ul class="price-list">
+          <li>
+            <div class="item"><span class="name">Regular Makeup</span></div>
+            <span class="price">Rp. 1.000.000</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Regular%20Makeup%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+      </article>
+
+      <article class="service-card">
+        <h2>Wedding Makeup</h2>
+        <p class="desc">Refined bridal makeup crafted around your features and your day, with an optional retouch service.</p>
+        <ul class="price-list">
+          <li>
+            <div class="item"><span class="name">Wedding Makeup</span></div>
+            <span class="price">Rp. 3.000.000</span>
+          </li>
+          <li>
+            <div class="item"><span class="name">Wedding Makeup + Retouch</span></div>
+            <span class="price">Rp. 4.500.000</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Wedding%20Makeup%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+      </article>
+
+      <article class="service-card">
+        <h2>Wedding Packages</h2>
+        <p class="desc">Curated packages for the couple and their families, with makeup only or makeup and attire options.</p>
+        <ul class="price-list">
+          <li>
+            <div class="item">
+              <span class="name">Makeup Only Package</span>
+              <span class="sub">Bride, Groom &amp; Mother of the Bride</span>
+            </div>
+            <span class="price">Rp. 5.000.000</span>
+          </li>
+          <li>
+            <div class="item">
+              <span class="name">Akad / Pemberkatan Package</span>
+              <span class="sub">Makeup + Attire</span>
+            </div>
+            <span class="price">Rp. 6.000.000</span>
+          </li>
+          <li>
+            <div class="item">
+              <span class="name">Wedding Package B</span>
+              <span class="sub">Makeup + Attire</span>
+            </div>
+            <span class="price">Rp. 8.500.000</span>
+          </li>
+          <li>
+            <div class="item">
+              <span class="name">Wedding Package C</span>
+              <span class="sub">Makeup + Attire</span>
+            </div>
+            <span class="price">Rp. 10.000.000</span>
+          </li>
+          <li>
+            <!-- KONFIRMASI KE KLIEN: di file asli tertulis 8.000.00 -->
+            <div class="item"><span class="name">Batak Wedding Package</span></div>
+            <span class="price">Rp. 8.000.000</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Wedding%20Package%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ===== MAKEUP CLASS ===== -->
+  <div class="service-panel" role="tabpanel" id="makeup-class" aria-labelledby="tab-makeup-class" hidden>
+    <div class="service-grid">
+
+      <article class="service-card">
+        <h2>Self Makeup Classes</h2>
+        <p class="desc">One-on-one or small-group sessions to learn the techniques that suit your own face.</p>
+        <ul class="price-list">
+          <li>
+            <div class="item"><span class="name">Self Private Makeup Class</span></div>
+            <span class="price">Rp. 1.000.000</span>
+          </li>
+          <li>
+            <div class="item"><span class="name">Self Private Makeup Class + Hijab Class</span></div>
+            <span class="price">Rp. 1.500.000</span>
+          </li>
+          <li>
+            <div class="item">
+              <span class="name">Self Private Makeup Class, Group</span>
+              <span class="sub">Maximum 2 seats</span>
+            </div>
+            <span class="price">Rp. 900.000 / pax</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Self%20Makeup%20Class%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+      </article>
+
+      <article class="service-card">
+        <h2>Professional Training</h2>
+        <p class="desc">Structured training for aspiring makeup artists, from the fundamentals to professional wedding work.</p>
+        <ul class="price-list">
+          <li>
+            <div class="item"><span class="name">Basic Makeup Class for MUA</span></div>
+            <span class="price">Rp. 2.000.000</span>
+          </li>
+          <li>
+            <div class="item"><span class="name">Basic Makeup Class for MUA + Hijab Class</span><span class="sub">2 looks</span></div>
+            <span class="price">Rp. 2.800.000</span>
+          </li>
+          <li>
+            <div class="item"><span class="name">Basic Makeup Class, 2 Days</span></div>
+            <span class="price">Rp. 3.750.000</span>
+          </li>
+          <li>
+            <div class="item"><span class="name">Wedding Makeup Class</span></div>
+            <span class="price">Rp. 2.500.000</span>
+          </li>
+          <li>
+            <div class="item">
+              <span class="name">Private Basic Class, 4 Days</span>
+              <span class="sub">Self Makeup, Basic Makeup, Basic to Pro</span>
+            </div>
+            <span class="price">Rp. 6.000.000</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Makeup%20Class%20for%20MUA%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+      </article>
+
+      <article class="service-card service-card--wide">
+  <h2>Class Information</h2>
+  <div class="info-grid">
+
+    <div>
+      <h3>What's Included</h3>
+      <ul class="includes">
+        <li>Makeup and tools provided</li>
+        <li>Coffee and snacks</li>
+        <li>Makeup Artist certificate</li>
+        <li>Goodie bag</li>
+        <li>Portfolio (photos and videos) of your results</li>
+        <li>Makeup e-module and product links</li>
+      </ul>
+      <p class="sub-label">Professional Training also includes</p>
+      <ul class="includes">
+        <li>A model for the lesson</li>
+        <li>Accessories and attire for the model</li>
+        <li>Hairdo and hijabdo for the model</li>
+        <li>Lunch for the participant and the model</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Schedule</h3>
+      <ul class="includes">
+        <li>Flexible, on weekdays and weekends</li>
+        <li>Classes start at 10:00 and run until finished</li>
+        <li>One participant per class, no companions, except Self Private Group (maximum 2 people)</li>
+        <li>Location: Studio Makeupby.Shadav</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>How to Register</h3>
+      <ul class="includes">
+        <li>A 50% down payment locks your slot</li>
+        <li>Rescheduling is allowed once, within the same month</li>
+        <li>Full payment is due no later than one day before the class</li>
+      </ul>
+    </div>
+
+    </div>
+    </article>
+    </div>
+  </div>
+
+  <!-- ===== BRAND COLLABORATION ===== -->
+  <div class="service-panel" role="tabpanel" id="brand-collaboration" aria-labelledby="tab-brand-collaboration" hidden>
+    <div class="service-grid">
+
+  <article class="service-card">
+    <h2>Regular Makeup</h2>
+    <p class="desc">Soft glam for graduations, events, and every occasion that calls for a polished, camera-ready finish.</p>
+    <ul class="price-list">
+      <li><div class="item"><span class="name">Regular Makeup</span><span class="sub">Without retouch</span></div><span class="price">IDR 1.000.000</span></li>
+    </ul>
+    <p class="card-label">Additional</p>
+    <ul class="price-list price-list--compact">
+      <li><div class="item"><span class="name">Clean hijabdo with hijabstylist</span></div><span class="price">IDR 250.000 to 300.000</span></li>
+      <li><div class="item"><span class="name">Hairstylist</span></div><span class="price">IDR 375.000</span></li>
+      <li><div class="item"><span class="name">Retouch</span></div><span class="price">IDR 100.000 / hour</span></li>
+    </ul>
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Regular%20Makeup%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+  </article>
+
+  <article class="service-card">
+    <h2>Wedding Makeup</h2>
+    <p class="desc">Refined bridal makeup crafted around your features and your day, with an optional retouch service.</p>
+    <ul class="price-list">
+      <li><div class="item"><span class="name">Wedding Makeup</span><span class="sub">Akad or reception, without retouch</span></div><span class="price">IDR 3.000.000</span></li>
+      <li><div class="item"><span class="name">Wedding Makeup + Retouch</span><span class="sub">Maximum waiting duration of 4 hours after the akad ceremony starts</span></div><span class="price">IDR 4.500.000</span></li>
+    </ul>
+    <p class="card-label">Additional</p>
+    <ul class="price-list price-list--compact">
+      <li><div class="item"><span class="name">Hijabdo for bride with hijabstylist</span></div><span class="price">IDR 500.000 to 800.000</span></li>
+      <li><div class="item"><span class="name">Hairstylist for bride</span></div><span class="price">IDR 650.000 to 1.000.000</span></li>
+      <li><div class="item"><span class="name">Retouch</span></div><span class="price">IDR 150.000 / hour</span></li>
+    </ul>
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Wedding%20Makeup%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+  </article>
+
+  <article class="service-card">
+    <h2>Makeup Only Package</h2>
+    <p class="desc">A complete makeup package for the couple and their closest family.</p>
+    <p class="price-list-single"><span class="price">IDR 5.000.000</span></p>
+    <ul class="includes">
+      <li>Makeup for the bride and groom (no retouch)</li>
+      <li>Makeup for the mothers of the bride and groom (no retouch)</li>
+      <li>Makeup for sisters, 2 pax (no retouch)</li>
+      <li>Makeup for guest receivers (among tamu), 2 pax</li>
+    </ul>
+    <p class="card-label">Additional</p>
+    <ul class="price-list price-list--compact">
+      <li><div class="item"><span class="name">Makeup for an additional sister</span><span class="sub">No retouch, includes hairdo / hijabdo</span></div><span class="price">IDR 1.000.000</span></li>
+    </ul>
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Wedding%20Package%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+  </article>
+
+  <article class="service-card">
+    <h2>Makeup &amp; Attire Packages</h2>
+    <p class="desc">Makeup and attire together. Every wedding package includes modern accessories, a hijab veil, pashmina, and manset for the bride.</p>
+    <!-- TODO: minta klien rincian isi paket di bawah, lalu tambahkan daftar .includes -->
+    <ul class="price-list">
+      <li><div class="item"><span class="name">Akad / Pemberkatan Package</span><span class="sub">Makeup + Attire</span></div><span class="price">IDR 6.000.000</span></li>
+      <li><div class="item"><span class="name">Wedding Package B</span><span class="sub">Makeup + Attire</span></div><span class="price">IDR 8.500.000</span></li>
+      <li><div class="item"><span class="name">Wedding Package C</span><span class="sub">Makeup + Attire</span></div><span class="price">IDR 10.000.000</span></li>
+    </ul>
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Wedding%20Package%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+  </article>
+
+  <article class="service-card">
+    <h2>Adat Batak Package</h2>
+    <p class="desc">A traditional Batak wedding package for the blessing and the traditional reception.</p>
+    <!-- CEK: website.txt tertulis 8.000.00, PDF 6.500.000 -->
+    <p class="price-list-single"><span class="price">IDR 8.000.000</span></p>
+    <ul class="includes">
+      <li>Bride's makeup and hairdo for the blessing (pemberkatan) and traditional reception</li>
+      <li>Jasmine, roses, and baby's breath flowers for the bride and the mother of the bride</li>
+      <li>Crown and sortali accessories</li>
+      <li>Makeup for the groom</li>
+      <li>Makeup and hairdo for the mother of the bride (no retouch)</li>
+    </ul>
+    <p class="card-label">Complimentary</p>
+    <ul class="includes">
+      <li>Soft lenses for the bride</li>
+      <li>Transport from the venue to the blessing location</li>
+      <li>Hand bouquet</li>
+    </ul>
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20Paket%20Adat%20Batak%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D." target="_blank" rel="noopener">Book Now</a>
+  </article>
+
+  <article class="service-card service-card--wide">
+    <h2>Traditional Accessories &amp; Attire</h2>
+    <p class="desc">Complete your look with traditional accessories and attire, available per piece. Accessory prices include jasmine and may change with the market price of jasmine.</p>
+
+    <details class="acc">
+      <summary>Traditional Accessories</summary>
+      <div class="acc-body">
+        <ul class="price-list price-list--compact">
+          <li><div class="item"><span class="name">Siger Sunda</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Siger Betawi</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Lampung</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Suntiang Padang Bando</span></div><span class="price">IDR 1.500.000</span></li>
+          <li><div class="item"><span class="name">Suntiang Padang Tusuk</span></div><span class="price">IDR 2.000.000</span></li>
+          <li><div class="item"><span class="name">Koto Gadang</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Palembang</span></div><span class="price">IDR 1.500.000</span></li>
+          <li><div class="item"><span class="name">Mandailing</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Indian Accessories</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Solo Putri Non Paes</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Solo Putri Paes</span></div><span class="price">IDR 2.000.000</span></li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>Traditional Attire</summary>
+      <div class="acc-body">
+        <ul class="price-list price-list--compact">
+          <li><div class="item"><span class="name">Koto Gadang Attire</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Padang Attire</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Javanese Attire (Velvet)</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Palembang Attire</span></div><span class="price">IDR 1.000.000</span></li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>Attire Rental</summary>
+      <div class="acc-body">
+        <ul class="price-list price-list--compact">
+          <li><div class="item"><span class="name">Premium Akad Attire, 1 set</span></div><span class="price">IDR 1.000.000</span></li>
+          <li><div class="item"><span class="name">Premium Reception Attire, 1 set</span></div><span class="price">IDR 1.500.000</span></li>
+          <li><div class="item"><span class="name">Premium Mother's Attire</span><span class="sub">Complete with hijab, manset, and longtorso</span></div><span class="price">IDR 500.000</span></li>
+          <li><div class="item"><span class="name">Javanese Beskap for Father</span></div><span class="price">IDR 500.000</span></li>
+          <li><div class="item"><span class="name">Guest Receiver Attire</span><span class="sub">Complete with hijab and manset</span></div><span class="price">IDR 200.000</span></li>
+        </ul>
+      </div>
+    </details>
+
+    <a class="btn-primary" href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20aksesoris%20dan%20busana%20adat." target="_blank" rel="noopener">Inquire Now</a>
+  </article>
+
+</div>
+
+<p class="panel-note">An additional morning fee of IDR 200.000 applies to appointments scheduled to start before 3 am. Transport for home service is charged separately, see the Terms &amp; Conditions below.</p>
+  </div>
+
+</section>
+
+<section class="terms-section">
+  <h2>Terms &amp; Conditions</h2>
+  <p class="terms-intro">Please read before booking. By paying your invoice, you agree to these terms.</p>
+
+  <div class="terms-box">
+
+    <details class="acc">
+      <summary>Payment</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>A down payment (DP) of 50% of the total is required to secure your date. There is no booking without a DP.</li>
+        <li>Full payment is due no later than one day before the event.</li>
+        <li>Brides booking a makeup and attire package must also pay the attire deposit as specified.</li>
+        <li>Valid payments are made only to our BCA and Mandiri accounts under the name Fiana Davilia Shafa. Payments made to any other account are not our responsibility.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Rescheduling &amp; Punctuality</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>Rescheduling is allowed once only, subject to the artist's availability. If the artist's schedule is full on the new date, the DP and full payment are forfeited.</li>
+        <li>Please be ready on time. If a client is an hour late and it may delay other appointments, we reserve the right to leave the location and cancel the agreement without refund.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Cancellation</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>The DP and full payment are non-refundable and cannot be transferred to another person or another type of makeup. Cancellation initiated by the client is not refundable.</li>
+        <li>If a disaster or riot forces the cancellation of the event, payments are not refunded but can be kept as a deposit for a future booking, valid within the same year only.</li>
+        <li>If the artist is unable to perform the agreed work, a suitable replacement team will be provided.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Accommodation &amp; Transport</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>Makeup at our studio: free transport.</li>
+        <li>Home service within Jabodetabek: transport is charged based on the round trip distance from the studio to your location, calculated with the Bluebird app.</li>
+        <li>Outside Jabodetabek: the pricelist excludes transport, accommodation, and hotel. Transport is charged at the round trip Bluebird fare or flight ticket price, with lodging at least equal to the bride's.</li>
+        <li>Outside Java: flights with Garuda, Citilink, or Batik and airport transfers to the venue are required. Makeup is charged at 2x the pricelist.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Retouch</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>Please do not remove your makeup (except on the lips) or wash or wet your hair before the retouch is complete.</li>
+        <li>If this is not followed, the client pays the full prevailing rate for the service instead of the retouch rate.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Booking Accuracy</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>Please book the package listed in the pricelist that matches your actual event.</li>
+        <li>We reserve the right to decline service and leave the location if a booking is found to have been made knowingly for a purpose that does not match its actual use.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Attire Visit &amp; Fitting</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>A visit to view the attire can be scheduled with a DP of IDR 100.000.</li>
+        <li>A fitting schedule is given after the 50% DP is paid. Our admin sets the fitting date, and Wednesdays or Thursdays between 9 am and 5 pm are recommended.</li>
+        <li>Please arrive according to your schedule. Fitting is limited to the couple, 2 mothers, and 2 fathers.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Attire Terms</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>All wedding packages include modern accessories, a hijab veil, pashmina, and manset for the bride.</li>
+        <li>Attire is ready stock in our gallery, with no extra charge for plus-size attire from the gallery. A charge applies only if the size is unavailable and a new custom model is requested.</li>
+        <li>Groom's attire: three outfits, consisting of 2 beskap and 1 suit. The groom's shirt and loafers for the reception suit are provided by the client.</li>
+        <li>Bride's slippers: one neutral pair (gold or silver) is loaned. White akad slippers are loaned for the groom.</li>
+        <li>Mother's attire: kebaya, pleated skirt or kain, manset, hijab, veil, and angkin if needed. Father's attire: black beskap, knee-length kain with the same motif as the mother's, and peci.</li>
+        <li>Slippers and longtorso for mothers and guest receivers are not provided.</li>
+        <li>Attire can be collected after full payment, or sent via Gosend at the client's expense.</li>
+        <li>The deposit is refunded when the attire is returned to the gallery intact, not lost or damaged.</li>
+      </ul></div>
+    </details>
+
+    <details class="acc">
+      <summary>Preparation Tips</summary>
+      <div class="acc-body"><ul class="terms-list">
+        <li>Eyelash extensions are not recommended. If you wear them, false lashes will not be applied.</li>
+        <li>Skip skincare on the day, including sunscreen, since skin preparation is part of the service.</li>
+        <li>Stop doctor-prescribed creams at least one week before, as they can make the skin slippery.</li>
+        <li>Keep up a daily or basic skincare routine so your skin is at its best, and use sheet masks occasionally for healthy hydration.</li>
+        <li>If you are booking a hairdo, wash your hair the day before so it is dry and not limp on the day.</li>
+        <li>Trim or thread your eyebrows for a neat finish.</li>
+        <li>Prepare a dedicated makeup space with a table, a chair, and AC or a fan. A table at dining-table height is most comfortable.</li>
+        <li>Wear a front or back opening outfit with a wide enough opening, so makeup and hairdo are not disturbed.</li>
+        <li>If you sweat easily or the event is outdoors, bring a portable fan to help your makeup last.</li>
+      </ul></div>
+    </details>
+
+  </div>
+</section>
+
+<section class="service-closing">
+  <blockquote class="about-quote">
+    <p>“I found my confidence through makeup, and now I want to help others discover theirs.”</p>
+  </blockquote>
+</section>
+  </main>
+<footer class="site-footer">
+    <div class="footer-inner">
+ 
+      <!-- Left: call to action -->
+      <div class="footer-cta">
+        <h2>Ready to Glow<br>on Your Day?</h2>
+        <p>Book a makeup session for your big day, join a class, or start a brand collaboration. Message me to check available dates.</p>
+        <a class="btn-cta"
+           href="https://wa.me/6287834256680?text=Halo%2C%20saya%20ingin%20booking%20%5Bjenis%20layanan%5D%20pada%20tanggal%20%5Bdd%2Fmm%2Fyyyy%5D."
+           target="_blank" rel="noopener">Book Now</a>
+      </div>
+ 
+      <!-- Right: contact card -->
+      <div class="footer-card">
+        <h3>Let's Connect</h3>
+        <ul class="connect-list">
+ 
+          <li>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            </span>
+            <div>
+              <span class="label">WhatsApp</span>
+              <a href="https://wa.me/6287834256680" target="_blank" rel="noopener">+62 878-3425-6680</a>
+            </div>
+          </li>
+ 
+          <li>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg>
+            </span>
+            <div>
+              <span class="label">Instagram</span>
+              <a href="https://www.instagram.com/shadav.makeup/" target="_blank" rel="noopener">@shadav.makeup</a>
+            </div>
+          </li>
+ 
+          <li>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <span class="label">Studio</span>
+              <p class="address">Jl. H. Emuntipala I No.4, Makasar, Kec. Makasar, Kota Jakarta Timur, Jakarta 13570</p>
+              <a class="maps-link" href="https://maps.app.goo.gl/tydZSCVLw7vXLrX76" target="_blank" rel="noopener">Navigate on Google Maps</a>
+              <p class="note">On-site services are also available for your convenience.</p>
+            </div>
+          </li>
+ 
+        </ul>
+      </div>
+ 
+    </div>
+ 
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Shadav Makeup. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+  <script src="glow.js" defer></script>
+  <script src="service.js" defer></script>
+</body>
+</html>

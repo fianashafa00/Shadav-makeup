@@ -292,8 +292,10 @@ body {
     left: 0;
     right: 0;
     background: var(--primary);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 25px rgba(107, 47, 53, 0.1);
     display: none;
+    border-bottom: 1px solid rgba(107, 47, 53, 0.12);
+    z-index: 99;
   }
 
   .main-nav.open { display: block; }
@@ -302,24 +304,26 @@ body {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: 8px 28px 16px;
+    padding: 16px 28px 24px;
   }
 
-  .main-nav a { padding: 12px 0; }
-
-  .dropdown {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    background: transparent;
-    padding: 0 0 0 16px;
-    min-width: 0;
-    display: none;
+  .main-nav a { 
+    padding: 12px 0; 
+    font-size: 16px;
+    border-bottom: none;
   }
 
-  .has-dropdown.open .dropdown { display: block; }
+  .main-nav a:hover,
+  .main-nav a.active {
+    border-bottom-color: transparent;
+    opacity: 0.8;
+  }
+
+  /* Styling tombol Book Now di menu mobile */
+  .main-nav .nav-book-btn {
+    text-align: center;
+    margin-top: 8px;
+  }
 
   .footer-inner {
     grid-template-columns: 1fr;
@@ -384,6 +388,11 @@ body {
 .has-glow > :not(.glow-layer) {
   position: relative;
   z-index: 1;
+}
+
+body.has-glow > .site-header {
+  position: sticky;
+  z-index: 100;
 }
 
 .glow {
@@ -840,6 +849,14 @@ body {
 .service-preview-btn:hover {
   opacity: 0.75;
   transform: translateX(3px);
+}
+
+@media (max-width: 960px) {
+  .services-preview-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
 
 /* ===== BRAND COLLAB HIGHLIGHT SECTION ===== */
